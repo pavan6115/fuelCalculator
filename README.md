@@ -7,7 +7,7 @@ From next time onwards, no wasting time in calculating the fuel price or anythin
 
 # 
 
-## Hosted Link - 
+## Hosted Link - https://fuelexpense.netlify.app/
 
 #
 
