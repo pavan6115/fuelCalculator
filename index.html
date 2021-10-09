@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fuel Expense Calculator | PK</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section class="header">
+        <h2>Fuel Expense Calculator</h2>
+        <p>No wasting time in calculating fuel bill amount!</p>
+    </section>
+
+    <section class="container-fluid">
+        <label for="vehicle-avg" class="form-label">Enter Vehicle Average : </label>
+        <input type="number" name="vehicle-avg" class = "form-control mb-3" id="vehicle-avg" placeholder="10km\L">
+
+        <label for="total-dist" class="form-label">Enter Total Distance of Journey : </label>
+        <input type="number" name="total-dist" class = "form-control mb-3"id="total-dist" placeholder="150km">
+
+        <label for="total-persons" class="form-label">Enter Total Number of Persons : </label>
+        <input type="number" name="total-persons" class = "form-control mb-3"id="total-persons" placeholder="4">
+
+        <label for="fuel-per-litre" class="form-label">Enter Fuel Price : </label>
+        <input type="number" name="fuel-per-litre" class = "form-control mb-3"id="fuel-per-litre" placeholder="105\L">
+
+        <button class="checkContro-btn btn btn-warning mb-3">Check</button>
+
+        <h4 class="totalFuel-msg mb-3"></h4>
+        <h5 class="controMoney-msg"></h5>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+
+    <script src="./script.js"></script>
+</body>
+</html>
