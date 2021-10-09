@@ -23,7 +23,7 @@ function checkContribution(){
 
         const costForFuel = fuelPerLitre.value * fuelRequiredInLitres;
 
-        totalFuelCostMsg.innerText = `Total Cost for Fuel Required : ${costForFuel}/-`
+        totalFuelCostMsg.innerText = `Total Cost for Fuel Required : ${costForFuel.toFixed(2)}/-`
 
         // console.log('total cost of fuel - ',costForFuel)
 
