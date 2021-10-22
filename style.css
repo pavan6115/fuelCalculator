@@ -8,14 +8,21 @@ body {
     text-align: center;
 }
 
+p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .push, footer {
     height: 40px;
 }
 
 footer {
-    margin-left: .5em;
     margin-top: 1.2em;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 hr.style-eight {
