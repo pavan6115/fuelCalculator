@@ -14,7 +14,7 @@ checkControBtn.addEventListener('click', checkContribution)
 function checkContribution(){
     if (vehicleAvg.value < 0 || vehicleAvg.value === "" ||
     totalDistance.value < 0 || totalDistance.value === "" || totalPersons.value < 0 || totalPersons.value === "" || fuelPerLitre.value < 0 || fuelPerLitre.value === ""){
-        outputMsg.innerText = "Check all values"
+        totalFuelMsg.innerText = "Check all values"
     }
     else {
         const fuelRequiredInLitres = totalDistance.value/vehicleAvg.value;
