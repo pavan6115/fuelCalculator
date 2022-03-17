@@ -42,3 +42,24 @@ hr.style-eight:after {
     padding: 0 0.25em;
     background: white;
 }
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+.footer__txt {
+    font-size: 1.4rem;
+}
+
+.social__links {
+    width: 10rem;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    color: black
+}
